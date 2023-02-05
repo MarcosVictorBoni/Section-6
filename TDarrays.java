@@ -46,8 +46,23 @@ public class TDarrays {
         for(int j=0;j<grades2[2].length;j++){
             System.out.print(" " +grades2[2][j]);
         }
+        System.out.println();
+        System.out.println("Grades length " +grades.length);
+        System.out.println();
 
+        for(int i=0;i<grades.length;i++){
+            switch(i){
+                case 0: System.out.print("\tHarry:   "); break;
+                case 1: System.out.print("\tRon:     "); break;
+                case 2: System.out.print("\tHermine: "); break;
+            }
+            for(int j=0;j<grades[i].length;j++){
+                System.out.print(grades[i][j] +" ");
+                }
+                System.out.println();
+            }
+        }
+       
 
-    }
     
 }
