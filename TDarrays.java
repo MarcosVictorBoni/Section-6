@@ -31,6 +31,22 @@ public class TDarrays {
         System.out.println("\tRon     :" +grades2[1][0] +" " +grades2[1][1] +" " +grades2[1][2] +" " +grades2[1][3]);
         System.out.println("\tHermine :" +grades2[2][0] +" " +grades2[2][1] +" " +grades2[2][2] +" " +grades2[2][3]);
 
+        for(int j=0;j<grades2[0].length;j++){
+            System.out.print(" " +grades2[0][j]);
+        }
+
+        System.out.println();
+
+        for(int j=0;j<grades2[1].length;j++){
+            System.out.print(" " +grades2[1][j]);
+        }
+
+        System.out.println();
+
+        for(int j=0;j<grades2[2].length;j++){
+            System.out.print(" " +grades2[2][j]);
+        }
+
 
     }
     
