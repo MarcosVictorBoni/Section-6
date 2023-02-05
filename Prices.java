@@ -29,6 +29,7 @@ public class Prices {
         System.out.println("\t   Baking: " +Arrays.toString(Prices[0]));
         System.out.println("\tBevereges: " +Arrays.toString(Prices[1]));
         System.out.println("\t  Cereals: " +Arrays.toString(Prices[2]));
+        System.out.println("Teste para modificção do arquivo para atualizações no commint no github");
 
         System.out.println();
 
